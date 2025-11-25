@@ -134,31 +134,31 @@ GET /weather/{city}
 
 **Response (JSON):**
 
-**```**
 
-{
 
-&nbsp; "weather": \[
+``` {
 
-&nbsp;   {
+&nbsp;  "weather": \[
 
-&nbsp;     "description": "scattered clouds"
+&nbsp;    {
 
-&nbsp;   }
+&nbsp;      "description": "scattered clouds"
 
-&nbsp; ],
+&nbsp;    }
 
-&nbsp; "main": {
+&nbsp;  ],
 
-&nbsp;   "temp": 14.5,
+&nbsp;  "main": {
 
-&nbsp;   "humidity": 72.0
+&nbsp;    "temp": 14.5,
 
-&nbsp; }
+&nbsp;    "humidity": 72.0
 
-}
+&nbsp;  }
 
-```
+``` }
+
+
 
 
 
@@ -170,9 +170,7 @@ GET /weather/{city}
 
 
 
-```
-
-&nbsp;   User\[Client / Postman] -- GET /weather/London --> Controller\[WeatherController]
+```  User\[Client / Postman] -- GET /weather/London --> Controller\[WeatherController]
 
 &nbsp;   Controller -- getWeather("London") --> Service\[WeatherService]
 
@@ -182,9 +180,9 @@ GET /weather/{city}
 
 &nbsp;   Service -- Mapped DTO --> Controller
 
-&nbsp;   Controller -- Clean JSON --> User
+&nbsp;   Controller -- Clean JSON --> User  ```
 
-```
+
 
 
 
