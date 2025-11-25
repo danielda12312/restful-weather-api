@@ -78,8 +78,11 @@ q
 
 1. **Clone the repository**
 
-   	```git clone \[https://github.com/danielda12312/restful-weather-api.git](https://github.com/danielda12312/restful-weather-api.git)
-   	cd restful-weather-api```
+```
+    git clone \[https://github.com/danielda12312/restful-weather-api.git](https://github.com/danielda12312/restful-weather-api.git)
+   	cd restful-weather-api
+```
+   	
    
 2. **Configure Environment** This project uses external configuration to keep secrets safe.
 
