@@ -78,35 +78,35 @@ A robust RESTful API service built with Spring Boot 3 that aggregates real-time 
 
 1. **Clone the repository**
 
-   	git clone \[https://github.com/danielda12312/restful-weather-api.git](https://github.com/danielda12312/restful-weather-api.git)
-   	cd restful-weather-api
+   	```git clone \[https://github.com/danielda12312/restful-weather-api.git](https://github.com/danielda12312/restful-weather-api.git)
+   	cd restful-weather-api```
    
 2. **Configure Environment** This project uses external configuration to keep secrets safe.
 
-   	Rename application.properties.example to application.properties (or create a new file).
+   	```Rename application.properties.example to application.properties (or create a new file).
 
    Add your API key:
 
    	# src/main/resources/application.properties
 
    	weather.api.key=YOUR\_OPENWEATHER\_API\_KEY
-   	weather.api.url=\[https://api.openweathermap.org/data/2.5/weather](https://api.openweathermap.org/data/2.5/weather)
+   	weather.api.url=\[https://api.openweathermap.org/data/2.5/weather](https://api.openweathermap.org/data/2.5/weather)```
    
 3. **Run the Application**
 
 
 
-&nbsp;	./mvnw spring-boot:run
+&nbsp;	```./mvnw spring-boot:run```
 
 
 
 
 
-**API Endpoints**
+##### **API Endpoints**
 
 
 
-The API runs on http://localhost:8080.
+The API runs on ```http://localhost:8080.```
 
 
 
@@ -132,11 +132,11 @@ GET /weather/{city}
 
 
 
-Response (JSON):
+**Response (JSON):**
 
 
 
-{
+```{
 
 &nbsp; "weather": \[
 
@@ -156,17 +156,17 @@ Response (JSON):
 
 &nbsp; }
 
-}
+}```
 
 
 
 
 
-###### **Architecture**
+##### **Architecture**
 
 
 
-&nbsp;   User\[Client / Postman] -- GET /weather/London --> Controller\[WeatherController]
+&nbsp;   ```User\[Client / Postman] -- GET /weather/London --> Controller\[WeatherController]
 
 &nbsp;   Controller -- getWeather("London") --> Service\[WeatherService]
 
@@ -176,13 +176,13 @@ Response (JSON):
 
 &nbsp;   Service -- Mapped DTO --> Controller
 
-&nbsp;   Controller -- Clean JSON --> User
+&nbsp;   Controller -- Clean JSON --> User```	
 
 
 
 
 
-**Future Improvements:** 
+##### **Future Improvements:** 
 
 
 
