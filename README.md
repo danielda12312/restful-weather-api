@@ -172,17 +172,17 @@ GET /weather/{city}
 
 
 ```
-&nbsp;   User\[Client / Postman] -- GET /weather/London --> Controller\[WeatherController]
+User\[Client / Postman] -- GET /weather/London --> Controller\[WeatherController]
 
-&nbsp;   Controller -- getWeather("London") --> Service\[WeatherService]
+Controller -- getWeather("London") --> Service\[WeatherService]
 
-&nbsp;   Service -- API Key + City --> External\[OpenWeatherMap API]
+Service -- API Key + City --> External\[OpenWeatherMap API]
 
-&nbsp;   External -- Raw JSON --> Service
+External -- Raw JSON --> Service
 
-&nbsp;   Service -- Mapped DTO --> Controller
+Service -- Mapped DTO --> Controller
 
-&nbsp;   Controller -- Clean JSON --> User 
+Controller -- Clean JSON --> User 
 ```
 
 
