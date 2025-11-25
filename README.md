@@ -40,7 +40,7 @@ A robust RESTful API service built with Spring Boot 3 that aggregates real-time 
 
 * Framework: Spring Boot 3.4 (Spring Web, DevTools)
 
-
+q
 
 * JSON Processing: Jackson
 
@@ -136,29 +136,31 @@ GET /weather/{city}
 
 
 
+```
 
+{
 
-``` {
+&nbsp; \&quot;weather\&quot;: \[
 
-&nbsp;  "weather": \[
+&nbsp;   {
 
-&nbsp;    {
+&nbsp;     \&quot;description\&quot;: \&quot;scattered clouds\&quot;
 
-&nbsp;      "description": "scattered clouds"
+&nbsp;   }
 
-&nbsp;    }
+&nbsp; ],
 
-&nbsp;  ],
+&nbsp; \&quot;main\&quot;: {
 
-&nbsp;  "main": {
+&nbsp;   \&quot;temp\&quot;: 14.5,
 
-&nbsp;    "temp": 14.5,
+&nbsp;   \&quot;humidity\&quot;: 72.0
 
-&nbsp;    "humidity": 72.0
+&nbsp; }
 
-&nbsp;  }
+}
 
-&nbsp;}```
+```
 
 
 
