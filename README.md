@@ -136,7 +136,7 @@ GET /weather/{city}
 
 
 
-```
+
 
 {
 
@@ -160,7 +160,7 @@ GET /weather/{city}
 
 }
 
-```
+
 
 
 
