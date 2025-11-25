@@ -10,7 +10,7 @@ A robust RESTful API service built with Spring Boot 3 that aggregates real-time 
 
 
 
-* Modern HTTP Client: Utilizes Spring's synchronous RestClient (introduced in Spring Boot 3.2) for efficient external API communication.
+* Modern HTTP Client: Utilizes Spring's synchronous ```RestClient``` (introduced in Spring Boot 3.2) for efficient external API communication.
 
 
 
@@ -22,11 +22,11 @@ A robust RESTful API service built with Spring Boot 3 that aggregates real-time 
 
 
 
-* Error Handling: Implements a GlobalExceptionHandler to gracefully manage downstream API errors (404s, Timeouts) and provide meaningful feedback to the client.
+* Error Handling: Implements a ```GlobalExceptionHandler``` to gracefully manage downstream API errors (404s, Timeouts) and provide meaningful feedback to the client.
 
 
 
-* Secure Configuration: API keys and external endpoints are externalized via application.properties.
+* Secure Configuration: API keys and external endpoints are externalized via ```application.properties```.
 
 
 
@@ -62,7 +62,7 @@ A robust RESTful API service built with Spring Boot 3 that aggregates real-time 
 
 
 
-* Maven (or use the included mvnw wrapper)
+* Maven (or use the included ```mvnw``` wrapper)
 
 
 
@@ -136,7 +136,7 @@ GET /weather/{city}
 
 
 
-```
+```json
 
 &nbsp;{
 
