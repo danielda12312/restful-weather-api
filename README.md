@@ -136,9 +136,9 @@ GET /weather/{city}
 
 
 
-```json
 
-&nbsp;{
+
+``` {
 
 &nbsp;  "weather": \[
 
@@ -158,9 +158,9 @@ GET /weather/{city}
 
 &nbsp;  }
 
-&nbsp;}
+&nbsp;}```
 
-```
+
 
 
 
