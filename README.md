@@ -134,9 +134,9 @@ GET /weather/{city}
 
 **Response (JSON):**
 
+**```**
 
-
-```{
+{
 
 &nbsp; "weather": \[
 
@@ -156,7 +156,11 @@ GET /weather/{city}
 
 &nbsp; }
 
-}```
+}
+
+```
+
+
 
 
 
@@ -166,7 +170,9 @@ GET /weather/{city}
 
 
 
-&nbsp;   ```User\[Client / Postman] -- GET /weather/London --> Controller\[WeatherController]
+```
+
+&nbsp;   User\[Client / Postman] -- GET /weather/London --> Controller\[WeatherController]
 
 &nbsp;   Controller -- getWeather("London") --> Service\[WeatherService]
 
@@ -176,7 +182,9 @@ GET /weather/{city}
 
 &nbsp;   Service -- Mapped DTO --> Controller
 
-&nbsp;   Controller -- Clean JSON --> User```	
+&nbsp;   Controller -- Clean JSON --> User
+
+```
 
 
 
