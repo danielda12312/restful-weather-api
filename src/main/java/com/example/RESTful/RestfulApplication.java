@@ -12,6 +12,7 @@ public class RestfulApplication {
 		SpringApplication.run(RestfulApplication.class, args);
 	}
 
+	//This method will instantiate, configure, and initialize an object that Spring will then manage
 	@Bean
 	public RestClient.Builder restClientBuilder() {
 		return RestClient.builder();
